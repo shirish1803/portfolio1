@@ -99,7 +99,8 @@
 .icon{
   margin-right: 24%;
   margin-top: 5%;
-  cursor: pointer; 
+  cursor: pointer;
+  color: rgb(52, 54, 56); 
   animation-name: aniIcon;
   animation-duration: 5s;
   margin-bottom: 8%;
