@@ -38,7 +38,7 @@ class Home extends Component {
                 <Fade right duration={1000}>
                 <div className="col-12 col-md-5" > 
                         <img className="pics" src={require('../assests/pngg.png')} alt="full pic" /><br/>                      
-                        <p className="about">A dedicated front-end developer with a keen eye for detail, and a determination to deliver the very highest quality. I take great pride in my work, and I always try to better myself with every project I work on.</p>    
+                        <p className="about">I am an aspiring Web Developer trying to explore more and deep dive further into it such that i expand my skills for the development of company and personal growth</p>    
                         {/*<input type="button" class="button" value="Contact me" style={{float: "left"}}/>
                         <input type="button" class="button" value="Check My Resume" style={{float: "right"}}/>*/}                                         
                     </div>
