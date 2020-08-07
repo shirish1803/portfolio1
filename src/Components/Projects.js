@@ -17,7 +17,7 @@ class Projects extends Component {
             return (
                 <Col sm="4" key={id}>
                     <Card className="card" style={{ backgroundColor: "rgb(220, 255, 252)" }} body shadow>
-                        <CardTitle>
+                        <CardTitle style={{textAlign: "center",fontFamily: "monospace"}}>
                             <h4>{data.name}</h4>
                         </CardTitle>
                         <CardText>{data.description}</CardText>
