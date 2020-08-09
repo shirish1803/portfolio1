@@ -24,7 +24,7 @@ class Certificates extends Component {
             );
         });
         return (
-            <div className="backG1">
+            <div className="backG1" style={{paddingBottom: "70px"}}>
                 <div className="container">
                     <Fade left duration={1000} >
                         <div className="" style={{ paddingTop: "5%" }}>

@@ -23,12 +23,13 @@ class Navb extends Component {
         return (
             <>
                 <Navbar dark expand="md" className="Navbar" sticky="top">
-                    <div className="container">
-                    <NavbarToggler  onClick={this.toggleNav} style={{border: "1px solid black", color: "black"}}>+</NavbarToggler>
+                    
+                    <NavbarToggler  onClick={this.toggleNav} style={{border: "1px solid black", color: "black"}}>=</NavbarToggler>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                                     <NavLink ><span className="link"><i class="fas fa-chevron-left turn" style={{color: "orange"}}></i>  <span style={{fontSize: "25px"}}>Shirish <span style={{color: "yellow"}}>/</span></span><i class="fas fa-chevron-right turn" style={{color: "orange"}}></i></span></NavLink>                                
-                            <Nav navbar className="ml-auto " style={{ cursor: "pointer" }}>
-                                <NavItem>
+                                    <div className="ml-auto">
+                            <Nav navbar style={{ cursor: "pointer" }}>
+                                <NavItem >
                                     <Link activeClass="active"
                                           to="home"
                                           spy={true}
@@ -52,9 +53,18 @@ class Navb extends Component {
                                           offset={-70}
                                           duration={500}><span className="link"> Technical Skills&nbsp;&nbsp;&nbsp; </span></Link>
                                 </NavItem>
+                                <NavItem>
+                                <Link activeClass="active"
+                                          to="certification"
+                                          spy={true}
+                                          smooth={true}
+                                          offset={-70}
+                                          duration={500}><span className="link"> certifications&nbsp;&nbsp;&nbsp; </span></Link>
+                                </NavItem>
                             </Nav>
+                            </div>
                         </Collapse>
-                    </div>
+                   
                 </Navbar>
             </>
         )

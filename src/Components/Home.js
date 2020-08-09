@@ -6,6 +6,7 @@ import Projects from './Projects';
 import Tech from './Technical';
 import { Fade } from "react-reveal";
 import Certificates from './Certificates';
+import Emoji from 'a11y-react-emoji'
 
 class Home extends Component {
     render(){
@@ -16,7 +17,7 @@ class Home extends Component {
                 <div className="animation">
                     <div className="welcome">
                     <img className="pic" src={require('../assests/pic.jpg')}  alt="full pic" /><br/>
-                    Welcome To My Portfolio&nbsp;&nbsp;
+                    Welcome To My Portfolio&nbsp;<Emoji symbol="💕" label="love" />&nbsp;
                     </div>                    
                 </div>
                 <div className="row " id="home">
