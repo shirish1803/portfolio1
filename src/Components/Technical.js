@@ -8,7 +8,7 @@ import { Fade } from "react-reveal";
 class Tech extends Component {
     render() {
         return (
-            <div className="backG1" id="tech" style={{ paddingTop: "10%" }}>
+            <div className="backG1" id="tech" style={{ paddingTop: "5%" }}>
 
                 <div className="container">
 

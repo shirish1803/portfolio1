@@ -26,7 +26,7 @@ class Navb extends Component {
                     
                     <NavbarToggler  onClick={this.toggleNav} style={{border: "1px solid black", color: "black"}}>=</NavbarToggler>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                                    <NavLink ><span className="link"><i class="fas fa-chevron-left turn" style={{color: "orange"}}></i>  <span style={{fontSize: "25px"}}>Shirish <span style={{color: "yellow"}}>/</span></span><i class="fas fa-chevron-right turn" style={{color: "orange"}}></i></span></NavLink>                                
+                                    <NavLink ><span ><i class="fas fa-chevron-left turn" style={{color: "orange"}}></i>  <span style={{fontSize: "30px",fontFamily: "cursive"}}>Shirish Bajpai <span style={{color: "yellow"}}>/</span></span><i class="fas fa-chevron-right turn" style={{color: "orange"}}></i></span></NavLink>                                
                                     <div className="ml-auto">
                             <Nav navbar style={{ cursor: "pointer" }}>
                                 <NavItem >

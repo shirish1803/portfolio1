@@ -2,14 +2,14 @@ export const CERTIFICATE = [
     {
       id: "0",
       image: require("../assests/js.png") ,
-      about: "Bootstrap",
+      about: "Java-Script",
       alt: "pic3",
       
     },
     {
         id: "1",
         image: require("../assests/bs.png"),
-        about: "Java-Script ",
+        about: "Bootstrap",
     },
     {
         id: "2",
