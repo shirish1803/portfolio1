@@ -1,3 +1,13 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
 .pic{
   width: 100%;
   max-width: 0px;
@@ -14,7 +24,7 @@
   width: 100%;
   max-width: 300px;
   height: auto;
-  margin-top: 10%;
+  margin-top: 20%;
   margin-left: 13%;
 }
 .Navbar{
@@ -69,7 +79,7 @@
   border: 1px solid rgb(17, 21, 44);;
 }
 .icon{
-  margin-right: 24%;
+  margin-right: 10%;
   margin-top: 5%;
   cursor: pointer; 
   animation-name: aniIcon;
@@ -77,9 +87,9 @@
   margin-bottom: 8%;
 }
 @keyframes aniIcon {
-  0%{ margin-right: -22%;}
-  70%{ margin-right: -22%;}
-  100%{ margin-right: 22%;}
+  0%{ margin-right: -10%;}
+  70%{ margin-right: -10%;}
+  100%{ margin-right: 10%;}
 }
 .heading{
   font-size: 2.5em;  
@@ -115,8 +125,13 @@
   color: rgb(28, 53, 85);
   font-size: 1.3em;
   text-align: justify;
-  font-weight: 600;
+  font-weight: 600;  
   font-family: 'Lexend Mega', sans-serif;  
+}
+@media only screen and (max-width: 600px){
+  .about{
+    font-size: 0.9em;
+  }
 }
 
 .animation{
