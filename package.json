@@ -10,6 +10,7 @@
     "a11y-react-emoji": "^1.1.2",
     "bootstrap": "^4.5.0",
     "bootstrap-social": "^5.1.1",
+    "emailjs-com": "^2.6.3",
     "font-awesome": "^4.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
