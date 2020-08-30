@@ -15,7 +15,11 @@ export default function ContactUs() {
           console.log(error.text);
       });
   }
-
+  function refreshPage() {
+    window.location.reload(false);
+  }
+  
+  
   return (
     <form className="contact-form" onSubmit={sendEmail}>
       <input type="hidden" name="contact_number" />
@@ -25,7 +29,7 @@ export default function ContactUs() {
       <input type="email" name="user_email" className="input"/><br/>
       <label><h6>Message:&nbsp;</h6> &nbsp;</label>
       <textarea name="message_html" className="input"/><br/>
-      <input type="submit" value="Send" className="button" style={{backgroundColor: "green"}}/>
+      <button type="submit" value="Send" className="button" style={{backgroundColor: "green"}} onClick={refreshPage}>Send</button>
     </form>
   );
 }
