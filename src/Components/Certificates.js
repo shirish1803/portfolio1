@@ -15,10 +15,10 @@ class Certificates extends Component {
         const certificateCard = this.state.certificates.map((data, id) => {
             return (
                 <Col sm="4" key={id}>
-                    <Card className="card" style={{ backgroundColor: "rgb(220, 255, 252)" }} body shadow>
+                    <Card className="card" style={{ backgroundColor: "rgb(240, 248, 247)" }} body shadow>
                         
                         <CardImg top width="100%" src={data.image} alt={data.alt} />
-                        <CardText style={{textAlign: "center",fontFamily: "monospace"}}><h4>{data.about}</h4></CardText>
+                        <CardText style={{textAlign: "center",fontFamily: "monospace"}}><h5>{data.about}</h5></CardText>
                     </Card>
                 </Col>
             );

@@ -8,7 +8,7 @@ import { Fade } from "react-reveal";
 class Tech extends Component {
     render() {
         return (
-            <div className="backG1" id="tech" style={{ paddingTop: "5%" }}>
+            <div className="backG1" id="tech" style={{ paddingTop: "3%" }}>
 
                 <div className="container">
 
@@ -23,12 +23,12 @@ class Tech extends Component {
                                 <div style={{ fontSize: "2.5em", fontamily: "'Lexend Mega', sans-serif", textAlign: "center" }}>
                                     Technical Skills
                             </div>
-                                <span className="fab fa-html5 skill" style={{ fontSize: "100px" }}></span>
-                                <span className="fab fa-css3 skill" style={{ fontSize: "100px" }}></span>
-                                <span className="fab fa-bootstrap skill" style={{ fontSize: "100px" }}></span>
-                                <span className="fab fa-js-square skill" style={{ fontSize: "100px" }}></span>
-                                <span className="fab fa-react skill" style={{ fontSize: "100px" }}></span>
-                                <span className="fab fa-adobe skill" style={{ fontSize: "100px" }}></span>
+                                <span className="fab fa-html5 skill" style={{ fontSize: "60px" }}></span>
+                                <span className="fab fa-css3 skill" style={{ fontSize: "60px" }}></span>
+                                <span className="fab fa-bootstrap skill" style={{ fontSize: "60px" }}></span>
+                                <span className="fab fa-js-square skill" style={{ fontSize: "60px" }}></span>
+                                <span className="fab fa-react skill" style={{ fontSize: "60px" }}></span>
+                                <span className="fab fa-adobe skill" style={{ fontSize: "60px" }}></span>
                             </div>
                         </Fade>
 
