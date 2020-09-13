@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import * as emailjs from "emailjs-com";
 import { Form } from 'reactstrap';
 import ContactUs from './Form';
+import Contact from './Form';
 
 class Footer extends Component{
 
@@ -18,7 +19,7 @@ class Footer extends Component{
                     <h6><span className="fa fa-phone  " style={{color: "blue"}} ></span> &nbsp;Phone:&nbsp; 9113837625 <br/><span className="fa fa-envelope  " style={{color: "brown"}} ></span> &nbsp;Email:&nbsp;&nbsp; Shirishattitude@gmail.com</h6>
                     <br/>
                     <Form/>
-                    <ContactUs />
+                    <Contact />
                     <br/>
                     <div style={{textAlign: "center",color: "gray"}}><h5>Made by Shirish Bajpai</h5></div>
                                           
