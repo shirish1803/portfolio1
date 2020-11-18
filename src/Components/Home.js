@@ -8,6 +8,7 @@ import { Fade } from "react-reveal";
 import Certificates from './Certificates';
 import Emoji from 'a11y-react-emoji'
 import Footer from './Footer';
+import Internship from './Internship';
 
 class Home extends Component {
     render(){
@@ -26,7 +27,7 @@ class Home extends Component {
                 <Fade left duration={1000}>
                     <div className="my-5  col-12 col-md-8 col-sm-6">
                         <p  className="hello">Hello,</p>
-                        <p className="about">I’m a  dedicated  front-end developer with a keen eye for detail, and a determination to deliver the very highest quality. I take great pride in my work, and I always try to better myself with every project I work on. The main areas of my expertise are HTML(5), CSS(3), JavaScript and React js .{'\u2728'}</p>
+                        <p className="about">I am  a  dedicated  front-end developer with a keen eye for detail, and a determination to deliver the  highest  quality. I take great pride in my work, and  always try to better myself with every project I work on. The main areas of my expertise are HTML(5), CSS(3), JavaScript and React js .{'\u2728'}</p>
                         
                         <div style={{marginLeft: "30%"}}>
                             <a href="https://github.com/shirish1803" ><span className="fab fa-github fa-3x icon" style={{color: "black"}} ></span></a>
@@ -49,6 +50,7 @@ class Home extends Component {
                 </Container>              
                 <Tech />
                 <Projects />
+                <Internship/>
                 <Certificates />
                 <Footer/>
             </div>

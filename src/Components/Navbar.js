@@ -55,6 +55,14 @@ class Navb extends Component {
                                 </NavItem>
                                 <NavItem>
                                 <Link activeClass="active"
+                                          to="internship"
+                                          spy={true}
+                                          smooth={true}
+                                          offset={-70}
+                                          duration={500}><span className="link"> Internships&nbsp;&nbsp;&nbsp; </span></Link>
+                                </NavItem>
+                                <NavItem>
+                                <Link activeClass="active"
                                           to="certification"
                                           spy={true}
                                           smooth={true}

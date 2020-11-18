@@ -16,4 +16,5 @@ export const CERTIFICATE = [
         image: require("../assests/react js.png"),
         about: "React js ",
     },
+    
   ];

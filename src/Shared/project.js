@@ -23,4 +23,11 @@ export const PROJECTS = [
       projectlink: "https://math-multiply.netlify.app/",
       githublink: "https://github.com/shirish1803/maths_game",
     },
+    {
+      id: "2",
+      name: "Doodle media",
+      description:"This was my internship project, its a website for graphic designer . And because it was internship project its github link is not there .",
+      projectlink: "https://doodlemedia.in",
+      githublink: "",
+    },
   ];
