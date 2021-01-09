@@ -12,7 +12,7 @@ class Internship extends Component {
             internships: INTERNSHIPS,
         };
     }
-    render() {
+    render(){
         const internshipcard = this.state.internships.map((data, id) => {
             return (
                 <Col sm="4" key={id}>
@@ -36,12 +36,7 @@ class Internship extends Component {
                     <Fade right duration={1000} >
                         <Row>{internshipcard}</Row>
                     </Fade>
-
                 </div>
-
-
-
-
             </div>
         );
     }

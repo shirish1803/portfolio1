@@ -78,14 +78,18 @@
   color: black;
   border: 1px solid rgb(17, 21, 44);;
 }
+
 .icon{
   margin-right: 10%;
-  margin-top: 5%;
-  cursor: pointer; 
-  animation-name: aniIcon;
-  animation-duration: 5s;
-  margin-bottom: 8%;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
 }
+.icon:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 @keyframes aniIcon {
   0%{ margin-right: -10%;}
   70%{ margin-right: -10%;}
@@ -120,6 +124,13 @@
   font-size: 2em;
   font-family: 'Lexend Mega', sans-serif;
   font-weight: 600;
+}
+.timeOfDay{
+  font-size: 0.8em;
+  color:rgb(28, 53, 85);
+  font-family: 'Lexend Mega', sans-serif;
+  font-weight: 600;
+  
 }
 .about{
   color: rgb(28, 53, 85);
